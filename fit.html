@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Fitness Tracker - Fitness Programs</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="fit.css"> 
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">FITNESS TRACKER</div>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profil.html">Profile</a></li>
+                <li><a href="fit.html" class="active">Fitness Programs</a></li> 
+                <li><a href="nutri.html">Nutrition Tracker</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="container">
+        
+        <section class="programs-header">
+            <h1>Fitness Programs</h1>
+            <p>Select a goal and program type to get started on your customized plan.</p>
+        </section>
+        
+        <section class="program-type-section">
+            <h2>💪 Strength & Hypertrophy Programs</h2>
+            <div class="program-grid">
+                
+                <div class="program-card">
+                    <input type="checkbox" id="check-5x5" class="modal-toggle"> 
+                    
+                    <h3>5x5 Strength Program</h3>
+                    <p>Focuses on compound lifts for 5 sets of 5 reps. Ideal for building foundational strength (Beginner).</p>
+                    
+                    <label for="check-5x5" class="select-btn">View Details</label>
+                    
+                    <div class="program-details-box">
+                        <div class="program-details-content">
+                            <label for="check-5x5" class="close-details-btn">&times; Close</label>
+                            <h4>5x5 Starting Strength</h4>
+                            <ul>
+                                <li>**Monday (A):** Squat 5x5, Bench Press 5x5, Barbell Row 5x5.</li>
+                                <li>**Wednesday (B):** Squat 5x5, Overhead Press 5x5, Deadlift 1x5.</li>
+                                <li>**Friday (A/B):** Alternate A-B workouts. Focus on adding weight to the bar.</li>
+                                <li>Estimated calories burned 280-450.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <input type="checkbox" id="check-ppl" class="modal-toggle"> 
+                    
+                    <h3>Push Pull Legs (PPL)</h3>
+                    <p>High-frequency split targeting pushing, pulling, and leg muscles on separate days for balanced growth (Advenced).</p>
+                    <label for="check-ppl" class="select-btn">View Details</label>
+                    
+                    <div class="program-details-box">
+                        <div class="program-details-content">
+                            <label for="check-ppl" class="close-details-btn">&times; Close</label>
+                            <h4>PPL Schedule</h4>
+                            <ul>
+                                <li>**Day 1 (Push):** Incline dumbell press 4x12, Shoulder Press 4x12, Tricep pushdown 3x15.</li>
+                                <li>**Day 2 (Pull):** Weighted Pullups 3x5, Cable Row 4x10, Barbell curl 3x10.</li>
+                                <li>**Day 3 (Legs):** Squats 3x5, Split Stance RDL 3x10, Calve raise 3x20.</li>
+                                <li>Estimated calories burned 280-450.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="program-card">
+                    <input type="checkbox" id="check-ul" class="modal-toggle"> 
+                    
+                    <h3>Upper Lower Split</h3>
+                    <p>Dividing the body into upper and lower days, allowing for twice-weekly frequency (intermediate).</p>
+                    <label for="check-ul" class="select-btn">View Details</label>
+                    
+                    <div class="program-details-box">
+                         <div class="program-details-content">
+                            <label for="check-ul" class="close-details-btn">&times; Close</label>
+                            <h4>Upper Lower</h4>
+                            <ul>
+                                <li>**Day 1:** Upper Body (Bench Press 5x5, Barbell Row 5x5, Shoulder Press 5x5).</li>
+                                <li>**Day 2:** Lower Body (Squat 4x10, RDL 4x10, Leg extension 3x15 ).</li>
+                                <li>**Day 3-5:** Rest, then Upper Body (Volume) & Lower Body (Strength).</li>
+                                <li>Estimated calories burned 280-450.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="program-type-section">
+            <h2>🏃 Cardio & Conditioning Programs</h2>
+            <div class="program-grid">
+                
+                <div class="program-card">
+                    <input type="checkbox" id="check-hiit" class="modal-toggle"> 
+                    
+                    <h3>HIIT Training</h3>
+                    <p>Alternating short, intense bursts of anaerobic exercise with less intense recovery periods. Highly effective for burning calories quickly but hard to recover from(Intermediate).</p>
+                    <label for="check-hiit" class="select-btn">View Details</label>
+                    
+                    <div class="program-details-box">
+                        <div class="program-details-content">
+                            <label for="check-hiit" class="close-details-btn">&times; Close</label>
+                            <h4>HIIT Routine</h4>
+                            <ul>
+                                <li>**Routine:** 20 seconds max effort sprint followed by 40 seconds rest.</li>
+                                <li>**Duration:** Repeat 8-10 times.</li>
+                                <li>**Frequency:** 3 times per week.</li>
+                                <li>Estimated calories burned 500-800+.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <input type="checkbox" id="check-liss" class="modal-toggle"> 
+                    
+                    <h3>LISS</h3>
+                    <p>Steady exercise (jogging or biking) at a comfortable pace. Good for recovery and improving endurance base (Beginner).</p>
+                    <label for="check-liss" class="select-btn">View Details</label>
+                    
+                    <div class="program-details-box">
+                        <div class="program-details-content">
+                            <label for="check-liss" class="close-details-btn">&times; Close</label>
+                            <h4>LISS Routine</h4>
+                            <ul>
+                                <li>**Routine:** Maintain 35-50% Max Heart Rate.</li>
+                                <li>**Duration:** 45 - 60 minutes.</li>
+                                <li>**Examples:** Walking, light jogging, swimming or cycling.</li>
+                                <li>Estimated calories burned 350-500.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+    </main>
+
+
+    <footer class="footer">
+        <p>&copy; 2025 Smart Fitness & Nutrition Tracker | Group 3</p>
+    </footer>
+
+</body>
+</html>
+

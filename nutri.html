@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nutrition Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="calculator-box.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">FITNESS TRACKER</div>
+        
+        <div class="navbar">
+               <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profil.html">Profile</a></li>
+                <li><a href="fit.html">Fitness Programs</a></li>
+                <li><a href="nutri.html" class="active">Nutrition Tracker</a></li> 
+            </ul>
+        </nav>
+        </div>
+    </div>
+
+
+    <div class="calculator-box">
+        <h3>Macro & Calorie Calculator</h3>
+        
+        <label>Protein (grams):</label>
+        <input type="number" id="protein" placeholder="e.g. 150">
+
+        <label>Carbs (grams):</label>
+        <input type="number" id="carbs" placeholder="e.g. 200">
+
+        <label>Fat (grams):</label>
+        <input type="number" id="fat" placeholder="e.g. 60">
+
+        
+        <label>Basal Metabolic Rate:</label>
+        <input type="number" id="bmr" placeholder = "e.g. 1900">
+
+        <label>Exercise Burned (kcal):</label>
+        <input type="number" id="exercise" placeholder="e.g. 400">
+
+        <button onclick="calculate()">Calculate</button>
+        
+         
+        <div class="goal-visualizer-container">
+            <h4>Net Calorie Guidance (Your Goal)</h4>
+            <div class="goal-bar-track">
+                
+                <div class="goal-zone loss-zone">
+                    <p>Fat Loss</p>
+                    <p>-500</p>
+                </div>
+                
+                <div class="goal-zone maintain-zone">
+                    <p>Maintain</p>
+                    <p>~0</p>
+                </div>
+                
+                <div class="goal-zone gain-zone">
+                    <p>Muscle Gain</p>
+                    <p>+500</p>
+                </div>
+
+            </div>
+            <p class="guidance-note">Compare your "Remaining Calories" result to these target zones.</p>
+        </div>
+       
+        <h2 id="result">Result: 0 kcal</h2>
+    </div>
+
+
+
+<footer class="footer">
+
+<p>&copy; 2025 Smart Fitness & Nutrition Tracker | Group 3</p>
+
+</footer>
+
+
+    <script src="calculator.js"></script>
+
+</body>
+</html>
